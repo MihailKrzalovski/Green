@@ -1,0 +1,379 @@
+html {
+    scroll-behavior: smooth;
+}
+
+img{
+    max-width:100%;
+height: 550px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+body > img:nth-child(2){
+    /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+max-width:100%;
+height: 2299px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+body > img:nth-child(4){
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 60px 0px;
+gap: 40px;
+
+max-width:100%;
+height: 1094px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+body > img:nth-child(5){
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 60px 0px;
+gap: 40px;
+
+max-width:100%;
+height: 5280px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+
+body > img:nth-child(6){
+    /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+max-width:100%;
+height: 2572px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+
+body > img:nth-child(7){
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 60px 0px;
+gap: 50px;
+
+max-width:100%;
+height: 826px;
+
+/* Grey bg */
+
+background: #F1F0F5;
+
+/* Inside auto layout */
+
+flex: none;
+order: 5;
+flex-grow: 0;
+}
+
+body > img:nth-child(8){
+margin-top: -120px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 60px 0px;
+gap: 40px;
+
+max-width:100%;
+height: 1083px;
+
+background: url(sliki/mob-greenery.jpg), #F0D8A8;
+
+/* Inside auto layout */
+
+flex: none;
+order: 6;
+flex-grow: 0;
+}
+
+body > img:nth-child(9){
+    /* Auto layout */
+margin-top: -60px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 0px 60px;
+gap: 60px;
+
+max-width:100%;
+height: 1122px;
+
+/* White */
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+
+flex: none;
+order: 7;
+flex-grow: 0;
+}
+
+body > img:nth-child(10){
+    /* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 60px 10px;
+gap: 60px;
+
+max-width:100%;
+height: 904px;
+
+/* Grey bg */
+
+background: #F1F0F5;
+
+/* Inside auto layout */
+
+flex: none;
+order: 8;
+flex-grow: 0;
+}
+
+body > img:nth-child(11){
+    /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 60px 0px;
+gap: 30px;
+
+max-width:100%;
+height: 900px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 9;
+flex-grow: 0;
+}
+
+body > img:nth-child(12){
+    /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 0px 60px;
+gap: 40px;
+
+max-width:100%;
+height: 790px;
+
+/* Grey bg */
+
+background: #F1F0F5;
+
+/* Inside auto layout */
+
+flex: none;
+order: 10;
+flex-grow: 0;
+}
+
+body > img:nth-child(13){
+    /* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 50px 0px;
+gap: 20px;
+
+max-width:100%;
+height: 328px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 11;
+flex-grow: 0;
+}
+div{
+    text-align: center;
+    display:inline-block;
+    position:relative;
+    justify-content: center;
+  }
+  
+  p{
+    position:absolute;
+    bottom:0px;
+    right:10px;
+
+  }
+  
+  textarea{
+    display:block;
+    line-height: 2;
+    resize: none;
+  }
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  #txt{
+    border-radius: 25px;
+    background: #78a836;
+    width: 600px;
+    height: 40px;
+    color: white;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-top-left-radius:  10px;
+    border-top-right-radius: 10px;
+  }
+  #txt3{
+    margin-top: 15px;
+    border-radius: 25px;
+    background: #78a836;
+    width: 600px;
+    height: 40px;
+    color: white;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-top-left-radius:  10px;
+    border-top-right-radius: 10px;
+  }
+  #txt5{
+    margin-top: 15px;
+    border-radius: 25px;
+    background: #78a836;
+    width: 600px;
+    height: 40px;
+    color: white;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-top-left-radius:  10px;
+    border-top-right-radius: 10px;
+  }
+  #txt7{
+    margin-top: 15px;
+    border-radius: 25px;
+    background: #78a836;
+    width: 600px;
+    height: 40px;
+    color: white;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-top-left-radius:  10px;
+    border-top-right-radius: 10px;
+  }
+  #txt9{
+    margin-top: 15px;
+    border-radius: 25px;
+    background: #78a836;
+    width: 600px;
+    height: 40px;
+    color: white;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-top-left-radius:  10px;
+    border-top-right-radius: 10px;
+  }
+  #txt2{
+    width: 600px;
+    height: 110px;
+    border-color: #78a836;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: none;
+  }
+  #txt4{
+    width: 600px;
+    height: 110px;
+    border-color: #78a836;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: none;
+  }
+  #txt6{
+    width: 600px;
+    height: 110px;
+    border-color: #78a836;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: none;
+  }
+  #txt8{
+    width: 600px;
+    height: 110px;
+    border-color: #78a836;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: none;
+  }
+  #txt10{
+    width: 600px;
+    height: 110px;
+    border-color: #78a836;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: none;
+  }
+  .styletxt2{
+    display: block;
+}
+body > div > h2{
+    margin: auto;
+    width: 30%;
+}

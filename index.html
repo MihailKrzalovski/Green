@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <link href="home.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!-- <script src="home.js"></script> -->        
+    </head>
+    <body>
+        <img src="sliki/slika1.png" alt="girl with a drink">
+        <img src="sliki/slika2.png" alt="end of page 1" usemap="#buttonworkmap">
+        <map name="buttonworkmap">
+            <area shape="rect" coords="457, 1855, 863, 1931" href="#section2">
+        </map>
+        <img src="sliki/slika3.png" alt="image 3" id="section2">
+        <img src="sliki/slika4.png" alt="image 4">
+        <img src="sliki/slika5.png" alt="image 5">
+        <img src="sliki/slika6.png" alt="image 6">
+        <img src="sliki/slika7.png" alt="image 7">           
+        <img src="sliki/slika8.png" alt="image 8">           
+        <img src="sliki/slika9.png" alt="image 9">           
+        <img src="sliki/slika10.png" alt="image 10">
+        
+        <div id="glaven" style="position :relative;
+        left: 50%;
+        top: 20%;
+        transform: translate(-50%, -50%);">
+            <h2 style="width: 300px;">Frequently asked questions</h2>     
+            <div>
+                <textarea  id="txt" cols="150" rows="2" readonly >What are the ingredients in GREEN&LEAN ?</textarea>
+                <p id="button" onclick="toggle()"> <i class="arrow up"></i></p>
+                <textarea  id="txt2" cols="150" rows="2" readonly >Lorem ipsum dolor sit amet consectetur adipisicing elit.Ad reprehenderit officia accusantium expedita autem laborum distinctio delectus aspernatur iste officiis labore voluptatum. Fugiat, voluptatem ullam!</textarea>                            
+            </div>
+                <br>
+            <div>
+                <textarea  id="txt3" cols="150" rows="2" readonly >What are the ingredients in GREEN&LEAN ?</textarea>
+                <p id="button2" onclick="toggle2()"> <i class="arrow up"></i></p>
+                <textarea  id="txt4" cols="150" rows="2" readonly >Lorem ipsum dolor sit amet consectetur adipisicing elit.Ad reprehenderit officia accusantium expedita autem laborum distinctio delectus aspernatur iste officiis labore voluptatum. Fugiat, voluptatem ullam!</textarea>
+            </div>
+              <br>
+            <div>
+                <textarea  id="txt5" cols="150" rows="2" readonly >How many servings per pouch ?</textarea>
+                <p id="button3" onclick="toggle3()"> <i class="arrow up"></i></p>
+                <textarea  id="txt6" cols="150" rows="2" readonly >Lorem ipsum dolor sit amet consectetur adipisicing elit.Ad reprehenderit officia accusantium expedita autem laborum distinctio delectus aspernatur iste officiis labore voluptatum. Fugiat, voluptatem ullam!</textarea>
+            </div>
+            <br>
+            <div>
+                <textarea  id="txt7" cols="150" rows="2" readonly >Is there any diary, gluten or soy ?</textarea>
+                <p id="button4" onclick="toggle4()"> <i class="arrow up"></i></p>
+                <textarea  id="txt8" cols="150" rows="2" readonly >Lorem ipsum dolor sit amet consectetur adipisicing elit.Ad reprehenderit officia accusantium expedita autem laborum distinctio delectus aspernatur iste officiis labore voluptatum. Fugiat, voluptatem ullam!</textarea>
+            </div>
+            <br>
+            <div>
+                <textarea  id="txt9" cols="150" rows="2" readonly >Will GREEN&LEAN upset my stomach ?</textarea>
+                <p id="button5" onclick="toggle5()"> <i class="arrow up"></i></p>
+                <textarea  id="txt10" cols="150" rows="2" readonly >Lorem ipsum dolor sit amet consectetur adipisicing elit.Ad reprehenderit officia accusantium expedita autem laborum distinctio delectus aspernatur iste officiis labore voluptatum. Fugiat, voluptatem ullam!</textarea>
+            </div>
+         </div>            
+             
+        <img src="sliki/slika12.png" alt="image 12"> 
+        
+        <script>
+            var counter = 0;
+            var counter2 = 0;
+            var counter3 = 0;
+            var counter4 = 0;
+            var counter5 = 0;
+         function toggle(){
+            if(counter % 2 ==0){
+            document.getElementById("txt2").style.cssText = 'display:block;';
+            document.getElementById("button").style.cssText= 'bottom: 110px;';
+            document.getElementById("glaven").style.cssText = ' margin-left: 28%;';
+            
+            counter++;    
+            }else{
+                document.getElementById("txt2").style.cssText = 'display:none;';
+                document.getElementById("button").style.cssText= 'bottom: 0px;';
+                counter++;
+            } 
+
+        }
+
+        function toggle2(){
+            if(counter2 % 2 ==0){
+            document.getElementById("txt4").style.cssText = 'display:block;';
+            document.getElementById("button2").style.cssText= 'bottom: 110px;';
+            document.getElementById("glaven").style.cssText = ' margin-left: 28%;';
+            counter2++;    
+            }else{
+                document.getElementById("txt4").style.cssText = 'display:none;';
+                document.getElementById("button2").style.cssText= 'bottom: 0px;';
+                counter2++;
+            }
+        }
+
+        function toggle3(){
+            if(counter3 % 2 ==0){
+            document.getElementById("txt6").style.cssText = 'display:block;';
+            document.getElementById("button3").style.cssText= 'bottom: 110px;';
+            document.getElementById("glaven").style.cssText = ' margin-left: 28%;';
+            counter3++;    
+            }else{
+                document.getElementById("txt6").style.cssText = 'display:none;';
+                document.getElementById("button3").style.cssText= 'bottom: 0px;';
+                counter3++;
+            }
+        }
+
+        function toggle4(){
+            if(counter4 % 2 ==0){
+            document.getElementById("txt8").style.cssText = 'display:block;';
+            document.getElementById("button4").style.cssText= 'bottom: 110px;';
+            document.getElementById("glaven").style.cssText = ' margin-left: 28%;';
+            counter4++;    
+            }else{
+                document.getElementById("txt8").style.cssText = 'display:none;';
+                document.getElementById("button4").style.cssText= 'bottom: 0px;';
+                counter4++;
+            }
+        }
+
+        function toggle5(){
+            if(counter5 % 2 ==0){
+            document.getElementById("txt10").style.cssText = 'display:block;';
+            document.getElementById("button5").style.cssText= 'bottom: 110px;';
+            document.getElementById("glaven").style.cssText = ' margin-left: 28%;';
+            counter5++;    
+            }else{
+                document.getElementById("txt10").style.cssText = 'display:none;';
+                document.getElementById("button5").style.cssText= 'bottom: 0px;';
+                counter5++;
+            }
+        }
+        </script>   
+    </body>
+</html>
